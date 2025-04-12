@@ -17,6 +17,7 @@ def positive_assert(name):
     kit = create_kit(name)
     response = sender_stand_request.post_create_kit(kit, token)
     assert response.status_code ==201
+    assert response.json()["name"] == kit["name"]
 
 def negative_assert(name):
     token = create_user_auth_token()
