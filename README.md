@@ -1,7 +1,5 @@
 # Proyecto Urban Grocers
 
-Realizado por Martín Aurelio López Garza, como parte del sprint 7:introduccion a la automatizacion de pruebas
-
 Urban grocers es una aplicacion para solicitar abarrotes mediante una aplicacion API. 
 El presente proyecto consiste en una serie de 9 pruebas en las cuales se verifica la funcionalidad de parametro "name" al momento de crear un kit de productos
 
